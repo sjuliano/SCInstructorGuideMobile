@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.left {display:none;}
+.mainmenu {font-size:14px;}
+
+.bigger {font-size:14px;}
+
+#mainmenu {font-size:14px; padding-left:55px; overflow:visible;}
+
+.bw {
+	background-image:url(../images/modIconBeingWell_sm.gif);
+	background-repeat:no-repeat;
+	width:50px;
+	height:40px;
+}
+
+.rw {
+	background-image:url(../images/modIconRelatingWell_sm.gif);
+	background-repeat:no-repeat;
+	width:50px;
+	height:40px;
+}
+
+.ww {
+	background-image:url(../images/modIconWorkingWell_sm.gif);
+	background-repeat:no-repeat;
+	width:50px;
+	height:40px;
+}
+
+.lw {
+	background-image:url(../images/modIconLivingWell_sm.gif);
+	background-repeat:no-repeat;
+	width:50px;
+	height:40px;
+}
+
+.leadw {
+	background-image:url(../images/modIconLeadingWell_sm.gif);
+	background-repeat:no-repeat;
+	width:50px;
+	height:40px;
+}
+
+h1.headershow {
+overflow:visible;
+margin:0 auto;
+font-size:16px;
+}
+
+.ui-header .ui-title {
+	margin:0.6em 0px 0.8em 0px;
+	
+}
+
+.content-secondary {display:none;}
+
+.content-primary {
+    width: 100%;
+}
+
+.phonenav {
+	display:inline;
+}
+
+.content-primary h1{
+    font-size:18px;
+}
+
+.content-primary p{
+    font-size:14px;
+}
+
+p.paraphone {
+display:block;	
+}
+
+p.paratab {
+display:none;	
+}
+
+iframe {
+	
+	height:90px;
+	
+	}
+
+.comic{display:block;}
+
+.comic_dt{display:none;}
+
+p.notice {display:none;}
+p.notice2 {display:block; color:#FFFFFF; font-size:12px; text-align:center;}

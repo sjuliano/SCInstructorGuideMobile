@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#FFFFFF;
+	background-image:url(../images/bg.png);
+	overflow:auto;
+	margin:0px;
+}
+#blah
+{
+	background-image:url(../images/bg2.png);
+	background-repeat:no-repeat;
+}
+#launchcontainer {
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+	
+	}
+	#launchcontainer p {
+	color:#868276;
+	font-family:Verdana, Geneva, sans-serifl;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	}
+#logo {
+	margin-left:40px;
+	position:relative; 
+	background-image:url(../images/logo.png); 
+	background-repeat:no-repeat;
+	width:400px; 
+	height:156px; 
+}
+
+#nav li {
+	display:block;
+/*display: table-cell;*/
+	}
+#nav li a{
+	display: block;
+	float: left;
+	height: 116px;
+	background-image:url(../images/btn_master.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+
+#nav li#bw a{
+	width:304px;	
+	background-position: -306px 0px;
+	}
+#nav li#bw a:hover{
+	background-position: -306px 0px;
+}
+
+#nav li#rw a{
+	width:304px;
+	background-position: -306px -116px;
+		
+	}
+#nav li#rw a:hover{
+	background-position: -306px -116px;
+	}
+	
+#nav li#lw a{
+	background-position: -306px -232px;
+	width:304px;
+}
+#nav li#lw a:hover{
+	background-position: -306px -232px;
+}
+#nav li#ww a{
+	width:304px;
+	background-position: 0px -348px;
+}	
+#nav li#ww a:hover{
+	background-position: 0px -348px;
+}
+#nav li#lew a{
+	width:304px;
+	background-position: -306px -464px;
+}	
+#nav li#lew a:hover{
+	background-position: -306px -464px;
+}	

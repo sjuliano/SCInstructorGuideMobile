@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>WORKING WELL</title>
+<link href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="themes/strongchoices.min.css" />
+<link rel="stylesheet" href="themes/strongchoices.css" /><link href="themes/strongchoicesphone.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="js/locatdatastorage.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+
+<div data-role="page" id="topics" class="type-interior">
+	<div data-role="header" data-theme="e">    <a href="workingwellmenu.html" data-icon="arrow-l" data-iconpos="notext" data-role="button" data-mini="true"></a>
+<a href="index.html" data-icon="grid" data-iconpos="notext" data-role="button" data-mini="true"></a>
+		<h1>Working Well Topics</h1>
+	</div>    <div class="phonenav" data-role="navbar" data-theme="c">
+	<ul>
+		<li><a href="ww_topics.html" data-transition="pop" data-rel="dialog">Topics</a></li>            <li><a href="notestemp.html" data-rel="dialog">My Notes</a></li>
+</ul>
+</div><!-- /navbar -->
+
+<div class="content-primary">
+	<div data-role="content" data-theme="a" class="maincontent">	
+<div data-role="content" >
+
+<h1>Standard Drinks</h1>
+<h3>Multimedia</h3>
+<iframe src="http://player.vimeo.com/video/45458404" width="100%" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>     
+<h3>Teaching Points</h3>
+<ul>
+	<li>Illustrates the importance of establishing standards as protective of our ability to work well.</li>
+	<li>Defines what a standard drink is, and explains standard drink amounts for beer, wine, and liquor.</li>
+</ul>
+
+
+<div data-role="collapsible" data-theme="b" data-content-theme="a">
+   <h2>Take a Note</h2>
+<label for="textarea">Enter / Change a Note:</label>
+<textarea data-id="5" name="notes-box" id="textarea"></textarea>   
+            
+            <a href="#" id="notesSub" data-role="button">Submit</a>
+</div></div>
+
+
+
+    </div>
+</div>
+<!------------End main content------>
+<div class="content-secondary" data-position="fixed">
+
+
+					<ul data-role="listview" data-theme="a">
+
+						<li class="tool" data-role="list-divider" data-dividertheme="f">Topics</li>
+						<li><a href="ww_teamwork.html">Teamwork In Action</a></li>
+						<li><a href="ww_ready.html">Readiness</a></li>
+						<li><a href="ww_ready2.html">Readiness, Part 2</a></li>
+						<li><a href="ww_tonight.html">Tonight's Choices and Tomorrow</a></li>
+                        <li><a href="ww_standard.html">Standard Drinks</a></li>
+                        <li><a href="ww_lrg.html">Low Risk Guidelines</a></li>
+                       <li class="tool" data-role="list-divider" data-dividertheme="f">TOOLS</li>
+
+					</ul>
+                   <div data-role="navbar" data-iconpos="left">
+	<ul>		<li><a href="notestemp.html" data-rel="dialog" data-theme="b">My Notes</a></li>
+	</ul>
+</div><!-- /navbar -->
+		</div>

@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+.left {float:left;padding-right:15px:;}
+.left {float:right;}
+
+.ui-icon-play {width:18px; height:18px; background-image:url(../images/play.png);}
+.ui-icon-note {width:18px; height:18px; background-image:url(../images/note.png);}
